@@ -6,7 +6,7 @@ computer_wins = 0
 options = ["rock", "paper", "scissors"]
 
 while True:
-    user_input = input("Type Rock/Paper/Scissors or Q to quite: ").lower()
+    user_input = input("Type Rock/Paper/Scissors or Q to quite:\n ").lower()
 
     if user_input == "q":
         break
@@ -29,7 +29,7 @@ while True:
     elif user_input == "scissors" and computer_pick == "paper":
         print("You Won!")
         user_wins += 5
-
+        
     else:
         print("You Lost!")
         computer_wins += 5
