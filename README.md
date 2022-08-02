@@ -1,31 +1,40 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **ROCK, PAPER, SCISSORS GAME**
 
-Welcome Bella-aa,
+## **Game Intro**
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+A simple rock,paper, scissors game where the user plays against the computer, for people of all ages.
 
-## Reminders
+The game website is live on Heroku [Linked Here](https://easy-rock-paper-scissors.herokuapp.com/)
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+![Screenshot 2022-08-02 092709](https://user-images.githubusercontent.com/103276740/182329211-9fef29c6-98b0-4a66-8214-eaf457e8aa12.png)
 
-## Creating the Heroku app
+## **User Stories**
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+* As a user, I want the game to be easily accessed.
+* As a user, I want the game to be easy to navigate.
+* As a user, I want the game to be interesting.
+* As a user, I want the game to have clear rules.
+* As a user, I want the game to be entertaining.
 
-1. `heroku/python`
-2. `heroku/nodejs`
+## **Features**
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+### **How to play**
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+#### **Game rules**
 
-Connect your GitHub repository and deploy as normal.
+* Right at the start when the gaeme loads , the user is introduced to the game rules to continue with the game.
 
-## Constraints
+![Screenshot 2022-08-02 093305](https://user-images.githubusercontent.com/103276740/182330283-7111fc58-90c2-4fcb-9cdc-c6ec0f1c253f.png)
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+#### **Gameplay**
 
------
-Happy coding!
+* The user is prompted to choose the option they want. If the user chooses either rock, paper or scissors the game continues and if they choose q the game ends.
+* After the user chooses their option between rock, paper and scissors , the user input is compared to the computer pick and a    result showing who won the round is generated, and so on.
+
+![Screenshot 2022-08-02 094029](https://user-images.githubusercontent.com/103276740/182331766-d90f4da3-a2f8-4ba0-9fee-a11b00a3242f.png)
+
+* When the user feel like not playing anymore they can choose the quite option and the game stops showing the number of points the user has won against the computer. The user can then choose to play the game again if they want to.
+
+![Screenshot 2022-08-02 094403](https://user-images.githubusercontent.com/103276740/182332535-1befe7ec-7d98-4ea0-a311-1459c7fff321.png)
+
+
