@@ -37,4 +37,48 @@ The game website is live on Heroku [Linked Here](https://easy-rock-paper-scissor
 
 ![Screenshot 2022-08-02 094403](https://user-images.githubusercontent.com/103276740/182332535-1befe7ec-7d98-4ea0-a311-1459c7fff321.png)
 
+## **Testing**
+
+I have manually tested this application by doing the following:
+
+* Passed the code through PEP8 linter and confirmed there is no issues after I fixed the issues indicated on the report.
+* Tested in my local terminal and the Code Institute Heroku terminal.
+
+![Screenshot 2022-08-02 094800](https://user-images.githubusercontent.com/103276740/182333371-7edf9857-b77a-47f3-b280-5a0be10f735b.png)
+
+## **Technologies Used**
+
+* [GitHub](https://github.com/) - used for secure storage of code online
+* [Python](https://www.python.org/) - Python is used for creating this application
+* Heroku for deploying this game
+
+## **Deployment**
+
+This project was deployed using Code Institute's Python mock terminal for Heroku
+
+The steps are as follows:
+
+* Create a new app, by clicking 'New' in the top right section of the welcome page.
+* Choose a name for your new application and select your region.
+* Go to the Settings tab, and add two buildpacks in this exact order:
+
+1. `heroku/python`
+2. `heroku/nodejs`
+
+* Go to 'Deploy' tab and select 'GitHub' as deployment method.
+* Locate your repository on 'Github', then select 'connect repository'.
+* Chose "Automatic deployment" if you'd like your app to be automatically updated after you do any changes to your code.
+* Chose "Manual deployment" if you like to have control when the code is updated to your already deployed app.
+* Chose the main branch and click build.
+
+## **Credits**
+
+### **General reference:**
+
+* Besides the course's material I used Youtube for reference to create this project.
+
+
+
+
+
 
